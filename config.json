@@ -1,0 +1,44 @@
+{
+    "boards": {
+        "coolboard": {
+            "devices": [
+                {
+                    "serial": "123",
+                    "status": "unlocked",
+                    "properties": []
+                },
+                {
+                    "serial": "61bf6",
+                    "status": "unlocked",
+                    "properties": []
+                },
+                {
+                    "serial": "e7e5f",
+                    "status": "unlocked",
+                    "properties": [ "pts" ]
+                }
+            ]
+        },
+        "someotherboard": {
+            "devices": [
+                {
+                    "serial": "192.168.1.10",
+                    "status": "unlocked",
+                    "properties": []
+                },
+                {
+                    "serial": "192.168.1.11",
+                    "status": "unlocked",
+                    "properties": []
+                },
+                {
+                    "serial": "192.168.1.12",
+                    "status": "unlocked",
+                    "properties": [ "pts" ]
+                }
+            ]
+        }
+    },
+    "host": "127.0.0.1",
+    "port": 9999
+}

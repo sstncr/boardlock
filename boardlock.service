@@ -1,0 +1,13 @@
+[Unit]
+Description=Board locking service
+After=network.target
+
+[Service]
+Type=simple
+User=nobody
+Group=nobody
+ExecStart=/home/me/scripts/tools/boardlock/run_server.py /home/me/scripts/tools/boardlock/config.json
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
